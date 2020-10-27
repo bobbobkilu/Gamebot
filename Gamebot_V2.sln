@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29021.104
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Gamebot V2", "Gamebot V2\Gamebot V2.pyproj", "{3EF975B5-85BB-40EC-98FA-D26A810BBAAE}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Gamebot_V2", "Gamebot V2\Gamebot_V2.pyproj", "{3EF975B5-85BB-40EC-98FA-D26A810BBAAE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
