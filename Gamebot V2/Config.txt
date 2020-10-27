@@ -1,4 +1,0 @@
-[DEFAULT]
-token = MzQxMzMyODQ4Mjk0NDk0MjA4.DSb7WQ.AdOYfVgt2ycKnoq-ip7I8tbiWa8
-owner = 100059743753621504
-
