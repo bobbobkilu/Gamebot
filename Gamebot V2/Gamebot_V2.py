@@ -4,29 +4,19 @@ import os
 import re
 import sys
 from urllib import request
-from configparser import ConfigParser
 
 logging.basicConfig(level=logging.INFO)
 __location__ = os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file__)))
 client = discord.Client()
 
-#set variables from config
+#set variables from environment variables
+token = os.environ.get('TOKEN');
+owner = os.environ.get('OWNER');
 
-config = ConfigParser()
-config.read("Config.txt")
 
 botChannel = 341343329356742670
 currentGame = "";
 fileList = os.listdir(os.path.join(__location__, "Images"))
-
-try:
-    token = config.get("DEFAULT", "token")
-    owner = config.get("DEFAULT", "owner")
-
-except:
-    print("Config is missing some data, please repair it")
-    os.system('pause')
-    sys.exit()
 
 #functions
 def getGameName(content):
