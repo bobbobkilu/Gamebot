@@ -11,6 +11,8 @@
     <OutputPath>.</OutputPath>
     <Name>Gamebot V2</Name>
     <RootNamespace>Gamebot V2</RootNamespace>
+    <IsWindowsApplication>False</IsWindowsApplication>
+    <InterpreterId>Global|PythonCore|3.8</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,6 +24,31 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Gamebot_V2.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\Bang.png" />
+    <Content Include="Images\Betrayal.png" />
+    <Content Include="Images\Box.png" />
+    <Content Include="Images\Carcassonne.png" />
+    <Content Include="Images\Catan.png" />
+    <Content Include="Images\chess.png" />
+    <Content Include="Images\Coup.png" />
+    <Content Include="Images\Elder Sign.png" />
+    <Content Include="Images\Fluxx.png" />
+    <Content Include="Images\Hitler.png" />
+    <Content Include="Images\Mansions.png" />
+    <Content Include="Images\Monopoly.png" />
+    <Content Include="Images\RDI.png" />
+    <Content Include="Images\Solitaire.png" />
+    <Content Include="Images\Unknown.png" />
+    <Content Include="Images\Uno.png" />
+    <Content Include="Procfile" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|PythonCore|3.8" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
