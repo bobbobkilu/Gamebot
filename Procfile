@@ -1,1 +1,1 @@
-worker: python "Gamebot V2\Gamebot_V2.py"
+worker: python "Gamebot V2\Gamebot_V2.py" 
