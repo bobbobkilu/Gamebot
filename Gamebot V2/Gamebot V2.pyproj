@@ -46,6 +46,7 @@
     <Content Include="Images\Unknown.png" />
     <Content Include="Images\Uno.png" />
     <Content Include="Procfile" />
+    <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="Global|PythonCore|3.8" />
