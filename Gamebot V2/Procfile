@@ -1,1 +1,1 @@
-worker: python "Gamebot V2/Gamebot_V2.py"
+worker: cd "Gamebot V2" && python Gamebot_V2.py
